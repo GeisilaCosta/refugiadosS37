@@ -2,7 +2,7 @@
 Projeto Refugiados Squad 37 
 
 
-**Refúgio Solidário** é uma iniciativa que visa promover conscientização, humanização e educação para o acolhimento de refugiados. Nosso objetivo é construir pontes de empatia e integração entre refugiados e as comunidades acolhedoras, criando um espaço de aprendizado, solidariedade e ação.
+##**Refúgio Solidário** é uma iniciativa que visa promover conscientização, humanização e educação para o acolhimento de refugiados. Nosso objetivo é construir pontes de empatia e integração entre refugiados e as comunidades acolhedoras, criando um espaço de aprendizado, solidariedade e ação.
 
 ## 📖 Sobre o Projeto
 
