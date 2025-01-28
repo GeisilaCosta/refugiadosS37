@@ -1,0 +1,19 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background: linear-gradient(135deg, #007bff, #0056b3);
+    color: #fff;
+  }
+  
+  h1, p {
+    margin: 0;
+  }
+  
+  footer {
+    background-color: #f8f9fa;
+    color: #6c757d;
+    font-size: 14px;
+  }
+  
