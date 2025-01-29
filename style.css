@@ -1,19 +1,65 @@
-body {
-    font-family: Arial, sans-serif;
-  }
-  
-  header {
-    background: linear-gradient(135deg, #007bff, #0056b3);
-    color: #fff;
-  }
-  
-  h1, p {
+* {
     margin: 0;
-  }
-  
-  footer {
-    background-color: #f8f9fa;
-    color: #6c757d;
-    font-size: 14px;
-  }
-  
+    padding: 0;
+   -sizing: border-box;
+}
+
+.hero {
+    position: relative;
+    background: url('img/criancas\ refugiadas.jpg') no-repeat center center/cover;
+   background-color: #66636348;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    color: rgb(247, 236, 236);
+}
+
+
+.nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 15px 0;
+    background: rgba(0, 0, 0, 0.192); 
+    transition: background 0.3s ease-in-out;
+    z-index: 1000;
+}
+
+/* Adiciona fundo cinza quando rolar a página */
+body.scrolled .nav {
+    background: rgba(128, 128, 128, 0.849); 
+}
+
+.nav a {
+    color: white ;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px gray;
+}
+
+/* Input de pesquisa */
+.search-box {
+    width: 50%;
+    max-width: 500px;
+}
+
+.hero h1, h3{
+    font-size: 2.5em;
+    color: rgb(252, 249, 249); 
+    text-shadow: 
+        /* -1px -1px 0 #000,   */
+         /* 1px -1px 0 #000, */
+        /* -1px  1px 0 #000, */
+         1px  1px 0 #000; 
+}
+.hero p {
+    font-size: 1.em;   
+    color: rgb(253, 251, 251); 
+    text-shadow: 
+        /* -1px -1px 0 #000,   */
+         /* 1px -1px 0 #000, */
+        /* -1px  1px 0 #000, */
+         1px  1px 0 #000;   
+ }
