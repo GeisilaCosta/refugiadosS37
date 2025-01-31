@@ -76,8 +76,52 @@
     display: flex;
     flex-direction: column;
     height: 100%;
+    border: 1px solid #ccc; /* Borda leve */
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    transition: transform 0.2s; /* Efeito de transição */
+}
+
+.card:hover {
+    transform: scale(1.05); /* Efeito de zoom ao passar o mouse */
+}
+
+.card-img-top {
+    height: 200px; /* Altura fixa para as imagens */
+    object-fit: cover; /* Cobre o espaço do cartão */
+}
+
+.card-title {
+    font-size: 1.25em; /* Tamanho do título */
+    color: #333; /* Cor do texto */
+}
+
+.card-text {
+    font-size: 0.9em; /* Tamanho do texto */
+    color: #666; /* Cor do texto */
 }
 
 .card-body {
-    flex-grow: 1; /* Faz com que o corpo do card ocupe o espaço restante */
+    flex-grow: 1; 
+}
+
+#parceiros {
+    width: 100%;
+    margin: 0 auto;
+    background-color: #0a0a0a;
+    color: #9b9999;
+    padding: 20px;
+    text-align: center;
+}
+
+#eventos {
+    width: 100%;
+    background-color: rgba(255, 166, 0, 0.582);
+}
+footer {
+    margin-top: 15px;
+    background-color: #292828;
+    color: #9b9999;
+    padding: 20px;
+    text-align: center;
 }
