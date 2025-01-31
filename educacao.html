@@ -1,40 +1,136 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
-</head>
-<body>
-     <!-- Navbar -->
-  <nav class="nav navbar navbar-expand-lg navbar-light">
-    <div class="container">
-      <a class="navbar-brand" href="index.html">Refúgio Solidário</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-          <li class="nav-item"><a class="nav-link" href="sobre.html">Sobre</a></li>
-          <li class="nav-item"><a class="nav-link" href="educacao.html">Educação</a></li>
-          <li class="nav-item"><a class="nav-link" href="contato.html">Contato</a></li>
-        </ul>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+    />
+  </head>
+  <body>
+    <div class="banner">
+      <!-- Navbar -->
+      <nav class="nav navbar navbar-expand-lg" id="navbar">
+        <div class="container">
+          <a class="navbar-brand" href="index.html">Refúgio Solidário</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="sobre.html">Sobre</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="educacao.html">Educação</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contato.html">Contato</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div class="hero">
+        <h1>Educação para Refugiados</h1>
+        <h3>Apoio e integração para um novo começo</h3>
+        <p>Busque informações sobre integração e aprendizado.</p>
+        <input
+          type="text"
+          class="form-control search-box"
+          placeholder="Pesquise sobre temas da página..."
+        />
+        <button class="btn btn-danger search-button">Pesquisar</button>
       </div>
     </div>
-  </nav>
 
-  <div class="hero">
-    <h1>Educação para Refugiados</h1>
-    <h3>Apoio e integração para um novo começo</h3>
-    <p>Busque informações sobre integração e aprendizado.</p>
-    <input type="text" class="form-control search-box" placeholder="Pesquise sobre temas da página...">
-    <button class="btn btn-danger search-button">Pesquisar</button>
-  </div>
+    <!-- Seção de Guias Práticos -->
+    <div class="container mt-5 mb-5">
+      <h2>Guias Práticos para a Integração</h2>
+      <p class="lead">Orientação para uma nova vida</p>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card">
+            <img
+              src="img/mulher de costas.jpg"
+              class="card-img-top"
+              alt="Manual de Integração Cultural"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Manual de Integração Cultural</h5>
+              <p class="card-text">
+                Este manual oferece uma visão detalhada sobre a cultura local,
+                incluindo costumes, tradições e práticas sociais. É um recurso
+                essencial para refugiados que desejam se adaptar rapidamente ao
+                novo ambiente. O guia também inclui dicas sobre como se
+                comunicar eficazmente e construir relacionamentos na nova
+                comunidade. Com informações práticas, é um passo importante na
+                jornada de acolhimento.
+              </p>
+              <a href="#" class="btn btn-danger">Saiba Mais</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img
+              src="img/bandeira brasil.jpg"
+              class="card-img-top"
+              alt="Guia de Direitos e Deveres"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Guia de Direitos e Deveres</h5>
+              <p class="card-text">
+                Este guia é fundamental para informar os refugiados sobre seus
+                direitos e deveres no Brasil. Com uma linguagem clara e
+                acessível, aborda questões legais, acesso a serviços públicos e
+                garantias de proteção. O objetivo é empoderar os refugiados,
+                ajudando-os a entender como navegar pelo sistema e buscar apoio
+                quando necessário. Um recurso indispensável para garantir uma
+                integração mais segura.
+              </p>
+              <a href="#" class="btn btn-danger">Saiba Mais</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img
+              src="img/burca.jpg"
+              class="card-img-top"
+              alt="Dicas de Emprego e Formação"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Dicas de Emprego e Formação</h5>
+              <p class="card-text">
+                Este material apresenta orientações sobre como buscar emprego e
+                oportunidades de formação profissional. Inclui informações sobre
+                elaboração de currículos, preparação para entrevistas e acesso a
+                cursos gratuitos. Além disso, traz dicas sobre a valorização de
+                habilidades e experiências prévias, ajudando os refugiados a
+                encontrar seu espaço no mercado de trabalho local. Um passo
+                importante para a autonomia e realização profissional.
+              </p>
+              <a href="#" class="btn btn-danger">Saiba Mais</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
- 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-</body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+  </body>
 </html>
