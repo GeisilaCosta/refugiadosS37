@@ -1,127 +1,211 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .banner {
-    display: flex;
-    position: relative;
-    background: url('img/criancas refugiadas.jpg') no-repeat center center/cover;
-    border: #000 solid 2px;
-    height: 100vh;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-    color: rgb(247, 236, 236);
+  display: flex;
+  position: relative;
+  background: url("img/criancas refugiadas.jpg") no-repeat center center/cover;
+  border: #000 solid 2px;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  color: rgb(247, 236, 236);
 }
 
 .banner::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.404); /* 50% de opacidade */
-    z-index: 1;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.404); /* 50% de opacidade */
+  z-index: 1;
 }
 
 .banner * {
-    position: relative;
-    z-index: 2;
+  position: relative;
+  z-index: 2;
 }
 
+.banner-contato {
+  display: flex;
+  position: relative;
+  background: url('img/campoRefugiados.jpg') no-repeat center center/cover;
+  border: #000 solid 2px;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  color: rgb(247, 236, 236);
+}
+
+.banner-contato::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(128, 127, 127, 0.795);
+  z-index: 1;
+}
+
+.banner-contato * {
+  position: relative;
+  z-index: 2;
+}
+
+#contato {
+  background-color: #292828;
+}
 
 #navbar {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.349); 
-    transition: background 0.3s ease-in-out;
-    z-index: 1000;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.349); 
+  transition: background 0.3s ease-in-out;
+  z-index: 1000;
 }
 
 .nav a {
-    color: white;
-    font-weight: bold;
-    text-shadow: 1px 1px 2px gray;
+  color: white;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px gray;
+}
+
+
+.banner-contato::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(128, 127, 127, 0.795);
+  z-index: 1;
+}
+
+.banner-contato * {
+  position: relative;
+  z-index: 2;
+}
+
+#contato {
+  background-color: #292828;
+}
+
+#navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.349);
+  transition: background 0.3s ease-in-out;
+  z-index: 1000;
+}
+
+.nav a {
+  color: white;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px gray;
 }
 
 /* Input de pesquisa */
 .search-box {
-    width: 50%;
-    max-width: 500px;
+  width: 50%;
+  max-width: 500px;
 }
 
-.hero h1, h3 {
-    font-size: 2.5em;
-    color: rgb(252, 249, 249); 
-    text-shadow: 1px 1px 0 #000; 
+.hero h1,
+h3 {
+  font-size: 2.5em;
+  color: rgb(252, 249, 249);
+  text-shadow: 1px 1px 0 #000;
 }
 
 .hero p {
-    font-size: 1em;   
-    color: rgb(253, 251, 251); 
-    text-shadow: 1px 1px 0 #000;   
+  font-size: 1em;
+  color: rgb(253, 251, 251);
+  text-shadow: 1px 1px 0 #000;
 }
 
 .row {
-    display: flex;
-    flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .card {
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-    border: 1px solid #ccc; /* Borda leve */
-    border-radius: 8px; /* Bordas arredondadas */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
-    transition: transform 0.2s; /* Efeito de transição */
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
 }
-
 .card:hover {
-    transform: scale(1.05); /* Efeito de zoom ao passar o mouse */
+  transform: scale(1.05);
 }
 
 .card-img-top {
-    height: 200px; /* Altura fixa para as imagens */
-    object-fit: cover; /* Cobre o espaço do cartão */
+  height: 200px;
+  object-fit: cover;
 }
 
 .card-title {
-    font-size: 1.25em; /* Tamanho do título */
-    color: #333; /* Cor do texto */
+  font-size: 1.25em;
+  color: #333;
 }
 
 .card-text {
-    font-size: 0.9em; /* Tamanho do texto */
-    color: #666; /* Cor do texto */
+  font-size: 0.9em;
+  color: #666;
 }
-
 .card-body {
-    flex-grow: 1; 
+  flex-grow: 1;
 }
 
 #parceiros {
-    width: 100%;
-    margin: 0 auto;
-    background-color: #0a0a0a;
-    color: #9b9999;
-    padding: 20px;
-    text-align: center;
+  width: 100%;
+  margin: 0 auto;
+  background-color: #0a0a0a;
+  color: #9b9999;
+  padding: 20px;
+  text-align: center;
 }
 
 #eventos {
-    width: 100%;
-    background-color: rgba(255, 166, 0, 0.582);
+  width: 100%;
+  background-color: rgba(255, 166, 0, 0.582);
+}
+
+#ajuda {
+  background-color: #202020b2;
+  border-radius: 5px;
+  border-style: dashed;
+  border-color: rgb(243, 5, 5);
+  text-align: center;
+  padding: 15px;
+  color: #ccc;
+}
+
+#btn-ajuda {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 footer {
-    margin-top: 15px;
-    background-color: #292828;
-    color: #9b9999;
-    padding: 20px;
-    text-align: center;
+  margin-top: 15px;
+  background-color: #292828;
+  color: #9b9999;
+  padding: 20px;
+  text-align: center;
 }
