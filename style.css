@@ -17,16 +17,7 @@
   color: rgb(247, 236, 236);
 }
 
-.banner::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.404); /* 50% de opacidade */
-  z-index: 1;
-}
+
 
 .banner * {
   position: relative;
