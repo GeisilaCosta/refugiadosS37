@@ -97,7 +97,7 @@
     position: fixed;
     top: 0;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.349); 
+    background-color: rgba(0, 0, 0, 0.452); 
     transition: background 0.3s ease-in-out;
     z-index: 1000;
   }
