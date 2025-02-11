@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+    <div class="form-container">
+        <h1>Cadastro</h1>
+        <form action="/cadastro" method="post">
+            <label for="signup-username">Nome de Usuário:</label>
+            <input type="text" id="signup-username" name="username" placeholder="Escolha um nome de usuário" required>
+
+            <label for="signup-email">E-mail:</label>
+            <input type="email" id="signup-email" name="email" placeholder="Digite seu e-mail" required>
+
+            <label for="signup-password">Senha:</label>
+            <input type="password" id="signup-password" name="password" placeholder="Crie uma senha segura" required>
+
+            <button type="submit">Cadastrar</button>
+        </form>
+        <p>Já tem uma conta? <a href="login.html">Faça login aqui</a></p>
+        <button><a href="index.html" style="color: aliceblue;">Voltar</a></button>
+
+    </div>
+</body>
+</html>
