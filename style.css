@@ -73,7 +73,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(128, 127, 127, 0.795);
+  background-color: rgba(128, 127, 127, 0.61);
   z-index: 1;
 }
 
@@ -83,7 +83,7 @@
 }
 
 #contato {
-  background-color: #292828;
+  background-color: #29282894;
 }
 
 #navbar {
