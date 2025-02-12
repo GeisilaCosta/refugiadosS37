@@ -77,30 +77,6 @@
   z-index: 1;
 }
 
-.banner-contato {
-  display: flex;
-  position: relative;
-  background: url("img/campoRefugiados.jpg") no-repeat center center/cover;
-  border: #000 solid 2px;
-  height: 100vh;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  text-align: center;
-  color: rgb(247, 236, 236);
-}
-
-.banner-contato::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(128, 127, 127, 0.795);
-  z-index: 1;
-}
-
 .banner-contato * {
   position: relative;
   z-index: 2;
@@ -124,27 +100,6 @@
   font-weight: bold;
   text-shadow: 1px 1px 2px gray;
 }
-
-.banner-contato::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(128, 127, 127, 0.795);
-  z-index: 1;
-}
-
-.banner-contato * {
-  position: relative;
-  z-index: 2;
-}
-
-#contato {
-  background-color: #292828;
-}
-
 #navbar {
   position: fixed;
   top: 0;
@@ -251,3 +206,4 @@ footer {
   padding: 20px;
   text-align: center;
 }
+
